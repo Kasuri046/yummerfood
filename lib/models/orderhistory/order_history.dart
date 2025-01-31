@@ -1,0 +1,150 @@
+class OrderListModel {
+  final String text1;
+  final String text2;
+  final String text3;
+  final String text4;
+  final String text5;
+  final String text6;
+  final String text7;
+  final String text8;
+  final String text9;
+  final String text10;
+  final String buttonText;
+
+  OrderListModel({
+    required this.text1,
+    required this.text2,
+    required this.text3,
+    required this.text4,
+    required this.text5,
+    required this.text6,
+    required this.text7,
+    required this.text8,
+    required this.text9,
+    required this.text10,
+    required this.buttonText,
+  });
+}
+
+List<OrderListModel> orderList = [
+  OrderListModel(
+      text1: 'Filada Family Bar',
+      text2: 'May 26, 2021 - 10:38 AM',
+      text3: 'Delivered',
+      text4: '\$36.42',
+      text5: 'Tom Yum Goong x 1',
+      text6: '\$10.38',
+      text7: 'Yam Pla Dook Foo x 1',
+      text8: '\$17.83',
+      text9: 'Pad Phuk Tong x 1',
+      text10: '\$8.21',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'The Green Bistro',
+      text2: 'June 1, 2021 - 11:15 AM',
+      text3: 'Delivered',
+      text4: '\$29.99',
+      text5: 'Green Curry x 2',
+      text6: '\$12.50',
+      text7: 'Spring Rolls x 4',
+      text8: '\$8.99',
+      text9: 'Pad Thai x 1',
+      text10: '\$8.50',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Spicy Szechuan',
+      text2: 'June 5, 2021 - 12:45 PM',
+      text3: 'Delivered',
+      text4: '\$42.75',
+      text5: 'Kung Pao Chicken x 1',
+      text6: '\$14.00',
+      text7: 'Hot & Sour Soup x 2',
+      text8: '\$9.75',
+      text9: 'Fried Rice x 1',
+      text10: '\$10.00',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Taco Fiesta',
+      text2: 'June 10, 2021 - 6:30 PM',
+      text3: 'Delivered',
+      text4: '\$32.50',
+      text5: 'Beef Tacos x 3',
+      text6: '\$15.00',
+      text7: 'Chips & Salsa x 1',
+      text8: '\$4.50',
+      text9: 'Guacamole x 1',
+      text10: '\$5.00',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Sushi Haven',
+      text2: 'June 15, 2021 - 7:00 PM',
+      text3: 'Delivered',
+      text4: '\$50.00',
+      text5: 'Sushi Roll x 2',
+      text6: '\$20.00',
+      text7: 'Edamame x 1',
+      text8: '\$6.00',
+      text9: 'Miso Soup x 2',
+      text10: '\$8.00',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Italian Bistro',
+      text2: 'June 20, 2021 - 8:00 PM',
+      text3: 'Delivered',
+      text4: '\$35.25',
+      text5: 'Spaghetti Bolognese x 1',
+      text6: '\$13.00',
+      text7: 'Garlic Bread x 2',
+      text8: '\$5.00',
+      text9: 'Caesar Salad x 1',
+      text10: '\$7.25',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Burger Joint',
+      text2: 'June 25, 2021 - 9:00 PM',
+      text3: 'Delivered',
+      text4: '\$28.80',
+      text5: 'Cheeseburger x 2',
+      text6: '\$12.00',
+      text7: 'Fries x 1',
+      text8: '\$4.50',
+      text9: 'Milkshake x 1',
+      text10: '\$8.30',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Pasta Palace',
+      text2: 'July 1, 2021 - 7:45 PM',
+      text3: 'Delivered',
+      text4: '\$38.60',
+      text5: 'Lasagna x 1',
+      text6: '\$14.00',
+      text7: 'Garlic Knots x 4',
+      text8: '\$6.00',
+      text9: 'Tiramisu x 1',
+      text10: '\$8.60',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Barbecue House',
+      text2: 'July 5, 2021 - 8:30 PM',
+      text3: 'Delivered',
+      text4: '\$45.30',
+      text5: 'Ribs x 1',
+      text6: '\$18.00',
+      text7: 'Coleslaw x 1',
+      text8: '\$5.00',
+      text9: 'Cornbread x 1',
+      text10: '\$7.30',
+      buttonText: 'REPEAT ORDER'),
+  OrderListModel(
+      text1: 'Seafood Delight',
+      text2: 'July 10, 2021 - 9:15 PM',
+      text3: 'Delivered',
+      text4: '\$52.00',
+      text5: 'Grilled Salmon x 1',
+      text6: '\$20.00',
+      text7: 'Clam Chowder x 1',
+      text8: '\$8.00',
+      text9: 'Caesar Salad x 1',
+      text10: '\$8.00',
+      buttonText: 'REPEAT ORDER'),
+];
